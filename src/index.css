@@ -27,7 +27,7 @@ body {
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
-  background-color: #0f172a;
+  background-color: #f3f4f6;
   color: white;
   overflow-x: hidden;
 }

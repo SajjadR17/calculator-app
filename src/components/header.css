@@ -3,13 +3,14 @@
   backdrop-filter: blur(10px);
   margin: 20px 0;
   border-radius: 20px;
-  border: 1px solid #9b9b9b;
+  border: 1px solid #fff;
   justify-content: space-between;
   align-items: center;
+  color: #fff;
   height: 70px;
   padding: 15px 20px;
   backdrop-filter: blur(12px);
-  background: #1a293b;
+  background: #2e333a;
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
 }
 
@@ -17,7 +18,7 @@
   width: 30px;
   height: 30px;
   margin-right: 15px;
-  border: 1.5px solid #c8c8c8;
+  border: 1px solid #fff;
   border-radius: 50%;
   vertical-align: middle;
 }
@@ -28,7 +29,6 @@
 }
 
 .logo {
-  color: #ffffff;
   font-weight: 700;
   font-size: 1.3rem;
   letter-spacing: 0.5px;
@@ -37,13 +37,9 @@
 
 .accent {
   margin-left: 5px;
-  color: #ffffff;
 }
 
 @media (max-width: 768px) {
-  nav .quick-link {
-    display: none;
-  }
 
   .accent {
     border-color: transparent;

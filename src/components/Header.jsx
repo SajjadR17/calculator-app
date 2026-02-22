@@ -12,7 +12,7 @@ function Header() {
           </div>
         </div>
         <div className="nav-right">
-          <span>Crypto App</span>
+          <span>Calculator</span>
         </div>
       </nav>
     </header>
