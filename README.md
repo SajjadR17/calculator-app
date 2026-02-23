@@ -1,16 +1,97 @@
-# React + Vite
+<h1 align="center">🧮 Modern React Calculator App</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <b>A clean, responsive, and interactive calculator built with React</b><br>
+  🌐 <a href="https://SajjadR17.github.io/calculator-app/">View Live Demo</a> •
+  💾 <a href="https://github.com/SajjadR17/calculator-app">View on GitHub</a>
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎨 Preview
 
-## React Compiler
+<p align="center">
+  <img src="preview1.png" alt="Calculator UI" width="500"/>
+</p>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 About The Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Modern React Calculator App is a front-end calculator built using React.
+
+This project focuses on:
+
+- Building reusable React components
+- Managing state efficiently with React Hooks
+- Handling user interactions and edge cases
+- Creating a clean and modern UI
+- Implementing mathematical logic with proper validation
+
+The goal of this project is to practice component structure, state management, UI consistency, and clean code architecture.
+
+---
+
+## 📊 Project Structure
+
+- 🧮 Display Component
+- 🔢 Number Buttons
+- ➕ Operator Buttons
+- 🟰 Equals Logic
+- 🧹 Clear & Delete Functions
+
+Each part is modular and handled with proper state logic.
+
+---
+
+## 🌟 Features
+
+✅ Fully responsive design  
+✅ Clean and modern UI  
+✅ Basic arithmetic operations (+ − × ÷)  
+✅ Decimal support  
+✅ Operator validation (prevents double operators)  
+✅ Error handling  
+✅ Clear (AC) functionality  
+✅ Delete / Backspace support  
+✅ Keyboard support (optional)  
+✅ State management using React Hooks  
+✅ Deployed with GitHub Pages
+
+---
+
+## ⚙️ Tech Stack
+
+| Technology        | Usage                        |
+| ----------------- | ---------------------------- |
+| React             | Component-based architecture |
+| JavaScript (ES6+) | Logic & event handling       |
+| CSS3              | Styling & responsive layout  |
+| CSS Grid          | Button layout structure      |
+| GitHub Pages      | Deployment                   |
+
+---
+
+## 🚀 Deployment
+
+This project is deployed using GitHub Pages ⚡️
+
+🔗 Live Demo:  
+https://SajjadR17.github.io/calculator-app/
+
+---
+
+## 🧭 How To Run Locally
+
+bash
+git clone https://github.com/SajjadR17/calculator-app.git
+cd calculator-app
+npm install
+npm start
+
+---
+
+## 🧾 License
+
+This project is licensed under the MIT License — meaning you're free to use, modify, and share it,  
+as long as you give proper credit.
