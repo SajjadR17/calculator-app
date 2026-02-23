@@ -2,72 +2,91 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid #c2c2c2;
-  border-radius: 6px;
+  border: 1px solid #686868;
+  border-radius: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+  padding-bottom: 0;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
   width: 400px;
   color: black;
   height: auto;
 }
 
-.display{
-    background-color: #111827;
-    color: #f9fafb;
-    padding: 10px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    height: 100px;
-    border-radius: 4px;
+.display {
+  background-color: #2b2e36;
+  color: #f9fafb;
+  padding: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  height: 100px;
+  border-radius: 4px;
 }
 
-.btns{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 10px;
-    padding: 10px 0;
+.btns {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px 0;
 }
 
-.btn{
-    display: flex;
-    align-items: center;
-    background: #ffffff;
-    color: #111827;
-    border: 1px solid #8b8b8b;
-    border-radius: 6px;
-    cursor: pointer;
-    height: 50px;
-    justify-content: center;
+.btn {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  color: #111827;
+  border: 1px solid #cacaca;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow:
+    7px 7px 17px #bebebe,
+    -7px -7px 15px #fff;
+  height: 50px;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+
+.btn:hover {
+  border-color: #2b2e36;
 }
 
 .btn.division,
 .btn.addition,
 .btn.multiplication,
-.btn.substraction{
-    background: #e5e7eb;
-    color: #111827;
+.btn.substraction {
+  background: #2563eb;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
-.btn.zero{
-    grid-column-start: 1;
-    grid-column-end: 3;
+.btn.delete,
+.btn.clear {
+  background: red;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
-.btn.equal{
-    background-color: #2563eb;
-    color: #fff;
-    grid-column-start: 3;
-    grid-column-end: 5;
+.btn.zero {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
-.btn.delete{
-    background: #cbd5e1;
+.btn.equal {
+  background-color: #2563eb;
+  color: #fff;
+  grid-column-start: 3;
+  grid-column-end: 5;
 }
 
-.btn.clear{
-    background: #f87171;
-    
+@media (max-width: 767px) {
+  .calculator {
+    width: 87%;
+    margin-top: 50px;
+  }
 }

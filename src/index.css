@@ -13,6 +13,7 @@ html {
 }
 
 body {
+  user-select: none;
   font-family:
     "Poppins",
     -apple-system,
@@ -27,7 +28,7 @@ body {
   margin: 0 auto;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
-  background-color: #f3f4f6;
+  background-color: #d9dce3;
   color: white;
   overflow-x: hidden;
 }

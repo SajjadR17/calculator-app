@@ -1,16 +1,16 @@
 .sajjad-nav {
   display: flex;
   backdrop-filter: blur(10px);
-  margin: 20px 0;
+  margin: 20px ;
   border-radius: 20px;
-  border: 1px solid #fff;
+  border: 1px solid #111;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
+  color: #111;
   height: 70px;
   padding: 15px 20px;
   backdrop-filter: blur(12px);
-  background: #2e333a;
+  background: #fff;
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
 }
 
